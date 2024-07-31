@@ -1,0 +1,32 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-navlinks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav-links {
+  list-style: none;
+}
+hr {
+  margin-bottom: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+.intro-section {
+  width: 80%;
+  background-color: #cccccc;
+  color: black;
+  height: 492px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.intro-section a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
