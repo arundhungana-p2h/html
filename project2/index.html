@@ -3,148 +3,217 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Project 2</title>
   </head>
   <body>
-    <!-- Header start -->
-    <header>
-      <nav id="main-nav" class="main-nav">
-        <a href="#" class="nav-logo" id="nav-logo"
-          ><img src="LOGO.png" alt="Logo"
-        /></a>
-        <ul id="main-navlink" class="main-navlink">
-          <li class="nav-link">About Us</li>
-          <li class="nav-link">Services</li>
-          <li class="nav-link"><u>News</u></li>
-          <li class="nav-link">News Details</li>
-          <li class="nav-link">Gallery</li>
-          <li class="nav-link">Contact</li>
-        </ul>
-      </nav>
-      <hr />
-      <nav id="secondary-nav" class="secondary-nav">
-        <ul id="secondary-navlink" class="secondary-navlink">
-          <li class="nav-links">About Us</li>
-          <li class="nav-links">Services</li>
-          <li class="nav-links">News</li>
-          <li class="nav-links">News Details</li>
-          <li class="nav-links">Gallery</li>
-          <li class="nav-links">Contact</li>
-        </ul>
-      </nav>
-      <hr />
-    </header>
-    <!-- Header end -->
+    <a class="accessibility" href="#main">Skip to Content</a>
+    <div class="wrapper">
+      <!-- Header start -->
+      <header class="header" id="'header">
+        <div class="header-container">
+          <div class="header-logo">
+            <a href="#" class="nav-logo" id="nav-logo"
+              ><img src="./assets/LOGO.png" alt="Nav logo"
+            /></a>
+          </div>
+          <div class="main-navwrapper">
+            <nav id="main-nav" class="main-nav">
+              <ul id="main-navlinks" class="main-navlinks">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">News Details</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <hr />
+          <div class="sub-navwrapper">
+            <nav id="sub-nav" class="sub-nav">
+              <ul class="sub-navlinks">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">News Details</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <hr />
+        </div>
+      </header>
+      <!-- Header end -->
 
-    <!-- Main Content start -->
-    <main>
-      <!-- Post Section -->
-      <section class="news-section">
-        <header>
-          <h3>News</h3>
-        </header>
-        <section class="blog-posts">
-          <article class="blog-post">
-            <figure>
-              <img src="post.png" alt="Post's image" />
-              <figcaption>Lorem ipsum dolor sit amet.</figcaption>
-            </figure>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <footer>
-              <a href="#">Learn More</a>
-            </footer>
-          </article>
+      <!-- Main Content start -->
+      <main class="main" id="main">
+        <!-- Post Section -->
+        <section class="news-section">
+          <header>
+            <h1>News</h1>
+          </header>
+          <section class="blog-posts">
+            <div class="blogs-container">
+              <div class="blog">
+                <article class="blog-post">
+                  <figure>
+                    <img src="./assets/post.png" alt="Post's image" />
+                  </figure>
+                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut
+                  </p>
+                  <footer>
+                    <a href="#">Learn More</a>
+                  </footer>
+                </article>
+              </div>
+              <div class="blog">
+                <article class="blog-post">
+                  <figure>
+                    <img src="./assets/post.png" alt="Post's image" />
+                  </figure>
+                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut
+                  </p>
+                  <footer>
+                    <a href="#">Learn More</a>
+                  </footer>
+                </article>
+              </div>
 
-          <article class="blog-post">
-            <figure>
-              <img src="post.png" alt="Post's image" />
-              <figcaption>Lorem ipsum dolor sit amet.</figcaption>
-            </figure>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <footer>
-              <a href="#">Learn More</a>
-            </footer>
-          </article>
+              <div class="blog">
+                <article class="blog-post">
+                  <figure>
+                    <img src="./assets/post.png" alt="Post's image" />
+                  </figure>
+                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut
+                  </p>
+                  <footer>
+                    <a href="#">Learn More</a>
+                  </footer>
+                </article>
+              </div>
 
-          <article class="blog-post">
-            <figure>
-              <img src="post.png" alt="Post's image" />
-              <figcaption>Lorem ipsum dolor sit amet.</figcaption>
-            </figure>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <footer>
-              <a href="#">Learn More</a>
-            </footer>
-          </article>
-          <article class="blog-post">
-            <figure>
-              <img src="post.png" alt="Post's image" />
-              <figcaption>Lorem ipsum dolor sit amet.</figcaption>
-            </figure>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <footer>
-              <a href="#">Learn More</a>
-            </footer>
-          </article>
+              <div class="blog">
+                <article class="blog-post">
+                  <figure>
+                    <img src="./assets/post.png" alt="Post's image" />
+                  </figure>
+                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut
+                  </p>
+                  <footer>
+                    <a href="#">Learn More</a>
+                  </footer>
+                </article>
+              </div>
+            </div>
+          </section>
         </section>
-      </section>
-      <!-- ************* -->
+        <!-- ************* -->
 
-      <!-- image section -->
-      <section class="image-section">
-        <img src="image.png" alt="image" />
-        <img src="image.png" alt="image" />
-        <img src="image.png" alt="image" />
-        <img src="image.png" alt="image" />
-        <img src="image.png" alt="image" />
-        <img src="image.png" alt="image" />
-      </section>
-      <!-- ****** -->
+        <!-- image section -->
+        <section class="gallery-section">
+          <figure class="gallery-img">
+            <img src="./assets/image.png" alt="Gallery" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/image.png" alt="Gallery" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/image.png" alt="Gallery" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/image.png" alt="Gallery" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/image.png" alt="Gallery" />
+          </figure>
+          <figure class="gallery-img">
+            <img src="./assets/image.png" alt="Gallery" />
+          </figure>
+        </section>
+        <!-- ****** -->
 
-      <!-- Form Section -->
-      <section class="form-section">
-        <header>
-          <h3>Newsletter</h3>
+        <!-- Form Section -->
+        <section class="form-section">
+          <header>
+            <h2>Newsletter</h2>
+          </header>
           <form action="#" method="post">
-            <div>
+            <div class="form-input">
               <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                aria-label="Email address"
+              />
             </div>
-            <div>
+            <div class="form-input">
               <label for="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
+              <textarea
+                id="message"
+                name="message"
+                aria-label="Message"
+                required
+              ></textarea>
             </div>
-            <button type="submit">Submit</button>
+            <div class="form-button">
+              <button type="submit" aria-label="Form submit button">
+                Submit
+              </button>
+            </div>
           </form>
-        </header>
-      </section>
-      <!-- ****form***** -->
-      <!-- image description -->
-      <section class="imagedescription">
-        <img src="example-image.jpg" alt="Description of the image" />
+        </section>
+        <!-- ****form***** -->
+        <!-- image description -->
+        <section class="details-section">
+          <article class="details">
+            <figure>
+              <img src="example-image.jpg" alt="Description of the image" />
+            </figure>
+
+            <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut<br /><br />
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              <br /><br />
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+          </article>
+        </section>
 
         <section>
-          <h2>Lorem ipsum dolor sit amet.</h2>
+          <header><h3>Lorem ipsum dolor sit amet.</h3></header>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -162,25 +231,7 @@
         </section>
 
         <section>
-          <h3>Lorem ipsum dolor sit amet.</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut<br /><br />
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident,
-            <br /><br />
-            sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut
-          </p>
-        </section>
-
-        <section>
-          <h4>Lorem ipsum dolor sit amet.</h4>
+          <header><h4>Lorem ipsum dolor sit amet.</h4></header>
           <p>
             sunt in culpa qui officia deserunt mollit anim id est laborum. sunt
             in culpa qui officia deserunt mollit anim id est laborum. sunt in
@@ -200,7 +251,7 @@
             <li>Vestibulum auctor dapibus neque.</li>
             <li>Nunc dignissim risus id metus.</li>
           </ol>
-          <p>Concluding with a notable quote:</p>
+
           <blockquote>
             <q
               >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -214,36 +265,36 @@
             <cite>-Full name</cite>
           </blockquote>
         </section>
-      </section>
-      <!-- image description end -->
-    </main>
-    <!-- Main content end -->
-    <hr />
-    <!-- Footer start -->
-    <footer>
-      <section class="footer-details">
-        <a href="#" class="footer-logo" id="footer-logo"
-          ><img src="LOGO.png" alt="Logo"
-        /></a>
-        <div class="contact-info">
-          <header><strong>Contact:</strong></header>
-          <a href="tel:000 000 000 00">000 000 000 00</a>
+        <!-- image description end -->
+      </main>
+      <!-- Main content end -->
+      <hr />
+      <!-- Footer start -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo" /></a>
+          </div>
+          <div class="contact-info">
+            <h5>Contact:</h5>
+            <a href="tel:00000000000">000 000 000 00</a>
+          </div>
+          <div class="address-info">
+            <h5>Address :</h5>
+            <address>Lorem ipsum dolor sit amet, elit.</address>
+          </div>
         </div>
-        <div class="address-info">
-          <header><strong>Address :</strong></header>
+        <div class="footer-bottom">
+          <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
 
-          <address>Lorem ipsum dolor sit amet, elit.</address>
+          <ul class="condition-list">
+            <li><a href="#"> Privacy Policy</a></li>
+            <li><a href="#"> Terms & Conditions</a></li>
+          </ul>
         </div>
-      </section>
-      <section class="footer-bookmark">
-        <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
-
-        <p>
-          <a href="#"> Privacy Policy</a> |
-          <a href="#">Terms and Conditions</a>
-        </p>
-      </section>
-    </footer>
-    <!-- Footer end -->
+      </footer>
+      <!-- Footer end -->
+    </div>
+    <a href="#header" class="accessibility">Back to Top</a>
   </body>
 </html>

@@ -3,179 +3,236 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Lorem</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Project 1</title>
   </head>
   <body>
-    <!-- Header start -->
-    <header>
-      <nav id="main-nav" class="main-nav">
-        <a href="#" class="nav-logo" id="nav-logo"
-          ><img src="LOGO.png" alt="Logo"
-        /></a>
-        <ul id="main-navlinks" class="main-navlinks">
-          <li class="nav-links">About Us</li>
-          <li class="nav-links">Services</li>
-          <li class="nav-links">News</li>
-          <li class="nav-links">News Details</li>
-          <li class="nav-links">Gallery</li>
-          <li class="nav-links">Contact</li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Header end -->
-    <hr />
-    <!-- Main Content start -->
-    <main>
-      <section class="intro-section">
-        <header>Lorem ipsum dolor sit amet</header>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          mollitia aperiam, voluptate minima minus ipsum atque? Ipsa amet
-          aperiam quod saepe omnis laudantium voluptate. Mollitia doloremque
-          optio ipsam quos possimus.
-        </p>
-        <a href="#">Learn more</a>
-      </section>
+    <a class="accessibility" href="#main">Skip to content</a>
+    <div class="wrapper">
+      <!-- Header start -->
+      <header class="header" id="header">
+        <div class="header-container">
+          <div class="header-logo">
+            <a href="#" class="nav-logo" id="nav-logo"
+              ><img src="./assets/LOGO.png" alt="Company's logo"
+            /></a>
+          </div>
+          <div class="nav-wrapper">
+            <nav id="main-nav" class="main-nav">
+              <ul id="main-navlinks" class="main-navlinks">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">News Details</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header end -->
+      <hr />
+      <!-- Main Content start -->
+      <main class="main" id="main">
+        <div class="content-container">
+          <section class="intro-section">
+            <article class="intro-content">
+              <header><h1>Lorem ipsum dolor sit amet</h1></header>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Perspiciatis mollitia aperiam, voluptate minima minus ipsum
+                atque? Ipsa amet aperiam quod saepe omnis laudantium voluptate.
+                Mollitia doloremque optio ipsam quos possimus.
+              </p>
+              <a href="#" aria-label="Learn more ">Learn more</a>
+            </article>
+          </section>
 
-      <section class="link-section">
-        <div class="">
-          <header>Lorem ipsum dolor sit amet.</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation.
-          </p>
+          <section class="info-section">
+            <div class="content-container info-container">
+              <div class="info-left">
+                <article class="info-article1">
+                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                  </p>
+                </article>
+                <article class="info-article2">
+                  <header><h3>Lorem ipsum dolor sit amet.</h3></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <a
+                    href="#"
+                    class="button-link"
+                    aria-label="Learn more about company"
+                    >BUTTON</a
+                  >
+                </article>
+                <article class="info-article3">
+                  <header><h4>Lorem ipsum dolor sit amet.</h4></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                  </p>
+                </article>
+                <article class="info-article4">
+                  <header><h5>Lorem ipsum dolor sit amet.</h5></header>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <a href="#" class="">Learn more</a>
+                </article>
+              </div>
+
+              <aside class="side-content">
+                <header><h3>Lorem ipsum amet</h3></header>
+                <ul class="side-links">
+                  <li><a href="#">Side Link</a></li>
+                  <li><a href="#">Side Link</a></li>
+                  <li><a href="#">Side Link</a></li>
+                  <li><a href="#">Side Link</a></li>
+                  <li><a href="#">Side Link</a></li>
+                  <li><a href="#">Side Link</a></li>
+                  <li><a href="#">Side Link</a></li>
+                </ul>
+              </aside>
+            </div>
+          </section>
+
+          <section class="about-section">
+            <div class="about-container">
+              <figure class="about-image">
+                <img src="./assets/info.jpg" alt="Company's image" />
+              </figure>
+              <article class="about-content">
+                <header><h3>Lorem ipsum dolor sit amet.</h3></header>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  quasi similique voluptatibus cupiditate quo ducimus laborum
+                  earum temporibus fuga neque consectetur, at nam, soluta
+                  voluptates nobis corporis voluptate necessitatibus sunt.
+                </p>
+                <a
+                  href="#"
+                  class="about-button"
+                  aria-label="Learn more about company"
+                  >BUTTON</a
+                >
+              </article>
+            </div>
+          </section>
+
+          <section class="longimage-section">
+            <figure class="longimage">
+              <img src="./assets/company.jpg" alt="Company Image" />
+            </figure>
+          </section>
+
+          <section class="contact-section">
+            <div class="form-container">
+              <header><h3>Contact Us:</h3></header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <form action="#" class="contact-form">
+                <div class="form-input">
+                  <label for="name">Full Name :</label>
+                  <input
+                    title="name"
+                    id="name"
+                    type="text"
+                    placeholder="Enter full name..."
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="email">Email:</label>
+                  <input
+                    title="email"
+                    id="email"
+                    type="email"
+                    placeholder="Enter email..."
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="number">Phone:</label>
+                  <input
+                    title="number"
+                    id="number"
+                    type="tel"
+                    placeholder="Enter number..."
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="message">Message:</label>
+                  <textarea
+                    title="message"
+                    id="message"
+                    placeholder="Enter message.."
+                  ></textarea>
+                </div>
+                <div class="form-button">
+                  <button type="submit">SUBMIT</button>
+                </div>
+              </form>
+            </div>
+            <div class="map-containter">
+              <iframe
+                title="mapframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2446435449656!2d85.31190967544384!3d27.70973182538627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1900e29a4495%3A0x173a159248de842d!2sRapid%20Web%20Solutions!5e0!3m2!1sen!2snp!4v1722348991166!5m2!1sen!2snp"
+                width="360"
+                height="433"
+                allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </section>
         </div>
-        <div class="">
-          <header>Lorem ipsum dolor sit amet.</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <a href="#" class="button-link">BUTTON</a>
+      </main>
+      <!-- Main content end -->
+      <hr />
+      <!-- Footer start -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo" /></a>
+          </div>
+          <div class="contact-info">
+            <h4>Contact:</h4>
+            <a href="tel:00000000000">000 000 000 00</a>
+          </div>
+          <div class="address-info">
+            <h4>Address :</h4>
+            <address>Lorem ipsum dolor sit amet, elit.</address>
+          </div>
         </div>
-        <aside class="side-content">
-          <header>Lorem ipsum amet</header>
-          <ul class="side-links">
-            <li class="side-link">Side Link</li>
-            <li class="side-link">Side Link</li>
-            <li class="side-link">Side Link</li>
-            <li class="side-link">Side Link</li>
-            <li class="side-link">Side Link</li>
-            <li class="side-link">Side Link</li>
-            <li class="side-link">Side Link</li>
+        <div class="footer-bottom">
+          <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
+
+          <ul class="condition-list">
+            <li><a href="#"> Privacy Policy</a></li>
+            <li><a href="#"> Terms & Conditions</a></li>
           </ul>
-        </aside>
-      </section>
-
-      <section class="third-section">
-        <div class="">
-          <header>Lorem ipsum dolor sit amet.</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation.
-          </p>
         </div>
-        <div class="">
-          <header>Lorem ipsum dolor sit amet.</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <a href="#" class="">Learn more</a>
-        </div>
-      </section>
-
-      <section class="info-section">
-        <div class="info-image">
-          <img src="info.jpg" alt="Company's image" />
-        </div>
-        <div class="info-content">
-          <header>Lorem ipsum dolor sit amet.</header>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quasi
-            similique voluptatibus cupiditate quo ducimus laborum earum
-            temporibus fuga neque consectetur, at nam, soluta voluptates nobis
-            corporis voluptate necessitatibus sunt.
-          </p>
-          <a href="#" class="info-button">BUTTON</a>
-        </div>
-      </section>
-
-      <section class="longimage-section">
-        <img src="company.jpg" alt="Company Image" />
-      </section>
-
-      <section class="contact-section">
-        <div class="form-container">
-          <header>Contact Us:</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <form>
-            <label for="name">Full Name :</label>
-            <input title="name" type="text" placeholder="Enter full name..." />
-            <label for="email">Email:</label>
-            <input
-              title="email"
-              type="email"
-              placeholder="Enter full name..."
-            />
-            <label for="number">Phone:</label>
-            <input title="number" type="tel" placeholder="Enter full name..." />
-            <label for="message">Message:</label>
-            <textarea title="message"></textarea>
-            <button type="submit">SUBMIT</button>
-          </form>
-        </div>
-        <div class="map-containter">
-          <iframe
-            title="mapframe"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2446435449656!2d85.31190967544384!3d27.70973182538627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1900e29a4495%3A0x173a159248de842d!2sRapid%20Web%20Solutions!5e0!3m2!1sen!2snp!4v1722348991166!5m2!1sen!2snp"
-            width="360"
-            height="433"
-            allowfullscreen=""
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </section>
-    </main>
-    <!-- Main content end -->
-    <hr />
-    <!-- Footer start -->
-    <footer>
-      <section class="footer-details">
-        <a href="#" class="footer-logo" id="footer-logo"
-          ><img src="LOGO.png" alt="Logo"
-        /></a>
-        <div class="contact-info">
-          <header><strong>Contact:</strong></header>
-          <a href="tel:000 000 000 00">000 000 000 00</a>
-        </div>
-        <div class="address-info">
-          <header><strong>Address :</strong></header>
-
-          <address>Lorem ipsum dolor sit amet, elit.</address>
-        </div>
-      </section>
-      <section class="footer-bookmark">
-        <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
-
-        <p>
-          <a href="#"> Privacy Policy</a> |
-          <a href="#">Terms and Conditions</a>
-        </p>
-      </section>
-    </footer>
-    <!-- Footer end -->
+      </footer>
+      <!-- Footer end -->
+    </div>
+    <a href="#header" class="accessibility">Back to Top</a>
   </body>
 </html>
