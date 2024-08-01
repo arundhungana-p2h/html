@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
   <title>Project 2</title>
 </head>
 
@@ -17,271 +17,276 @@
     <!-- Header start -->
     <header class="header" id="'header">
       <div class="header-container">
-        <div class="header-top">
-          <div class="header-logo">
-            <a href="#" class="nav-logo" id="nav-logo"><img src="./assets/LOGO.png" alt="Nav logo" /></a>
-          </div>
-          <div class="main-navwrapper">
-            <nav id="main-nav" class="main-nav">
-              <ul id="main-navlinks" class="main-navlinks">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">News Details</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
+        <div class="header-logo">
+          <a href="#" class="nav-logo" id="nav-logo"><img src="./assets/LOGO.png" alt="Nav logo"></a>
         </div>
-        <hr />
-        <div class="sub-navwrapper">
-          <nav id="sub-nav" class="sub-nav">
-            <ul class="sub-navlinks">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">News Details</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-        <hr />
+        <!-- better not to wrap  the nav with div -->
+
+        <nav id="main-nav" class="main-nav">
+          <ul id="main-navlinks" class="main-navlinks">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">News Details</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
+      <hr>
     </header>
     <!-- Header end -->
 
     <!-- Main Content start -->
     <main class="main" id="main">
+      <nav id="sub-nav" class="sub-nav" aria-label="Page sub navigation">
+        <!-- usually no classes in ul -->
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">News Details</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <hr>
       <!-- Post Section -->
       <section class="news-section">
-        <header>
-          <h1>News</h1>
-        </header>
-        <section class="blog-posts">
-          <div class="blogs-container">
-            <div class="blog">
-              <article class="blog-post">
-                <figure>
-                  <img src="./assets/post.png" alt="Post's image" />
-                </figure>
-                <header>
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                </header>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut
-                </p>
-                <footer>
-                  <a href="#">Learn More</a>
-                </footer>
-              </article>
-            </div>
-            <div class="blog">
-              <article class="blog-post">
-                <figure>
-                  <img src="./assets/post.png" alt="Post's image" />
-                </figure>
-                <header>
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                </header>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut
-                </p>
-                <footer>
-                  <a href="#">Learn More</a>
-                </footer>
-              </article>
-            </div>
+        <div class="blogs-container">
+          <header>
+            <h1>News</h1>
+          </header>
 
-            <div class="blog">
-              <article class="blog-post">
-                <figure>
-                  <img src="./assets/post.png" alt="Post's image" />
-                </figure>
-                <header>
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                </header>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut
-                </p>
-                <footer>
-                  <a href="#">Learn More</a>
-                </footer>
-              </article>
-            </div>
+          <div class="blogs-posts">
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
 
-            <div class="blog">
-              <article class="blog-post">
-                <figure>
-                  <img src="./assets/post.png" alt="Post's image" />
-                </figure>
-                <header>
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                </header>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut
-                </p>
-                <footer>
-                  <a href="#">Learn More</a>
-                </footer>
-              </article>
-            </div>
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
+
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
+
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
           </div>
-        </section>
+        </div>
       </section>
       <!-- ************* -->
 
       <!-- image section -->
       <section class="gallery-section">
-        <figure class="gallery-img">
-          <img src="./assets/image.png" alt="Gallery" />
-        </figure>
-        <figure class="gallery-img">
-          <img src="./assets/image.png" alt="Gallery" />
-        </figure>
-        <figure class="gallery-img">
-          <img src="./assets/image.png" alt="Gallery" />
-        </figure>
-        <figure class="gallery-img">
-          <img src="./assets/image.png" alt="Gallery" />
-        </figure>
-        <figure class="gallery-img">
-          <img src="./assets/image.png" alt="Gallery" />
-        </figure>
-        <figure class="gallery-img">
-          <img src="./assets/image.png" alt="Gallery" />
-        </figure>
+        <div class="container">
+          <div class="gallery-row">
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+          </div>
+        </div>
       </section>
       <!-- ****** -->
 
       <!-- Form Section -->
       <section class="form-section">
-        <header>
-          <h2>Newsletter</h2>
-        </header>
-        <form action="#" method="post">
-          <div class="form-input">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" aria-label="Email address" />
-          </div>
-          <div class="form-input">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" aria-label="Message" required></textarea>
-          </div>
-          <div class="form-button">
-            <button type="submit" aria-label="Form submit button">
-              Submit
-            </button>
-          </div>
-        </form>
+        <div class="container">
+          <header>
+            <h2>Newsletter</h2>
+          </header>
+          <form action="#" method="post">
+            <div class="form-input">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" aria-label="Email address">
+            </div>
+            <div class="form-input">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" aria-label="Message" required></textarea>
+            </div>
+            <div class="form-button">
+              <button type="submit" aria-label="Form submit button">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
       <!-- ****form***** -->
       <!-- image description -->
       <section class="details-section">
-        <article class="details">
-          <figure>
-            <img src="./assets/longimage.png" alt="Description of the image" />
-          </figure>
+        <div class="container">
+          <article class="details">
+            <figure>
+              <img src="./assets/longimage.png" alt="Description of the image">
+            </figure>
 
+            <header>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut<br><br>
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              <br><br>
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
           <header>
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet.</h3>
           </header>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut<br /><br />
+            nisi ut<br><br>
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat
             nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-            <br /><br />
+            <br><br>
             sunt in culpa qui officia deserunt mollit anim id est
             laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut
           </p>
-        </article>
+        </div>
       </section>
 
       <section>
-        <header>
-          <h3>Lorem ipsum dolor sit amet.</h3>
-        </header>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut<br /><br />
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          <br /><br />
-          sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut
-        </p>
-      </section>
+        <div class="conatiner">
+          <header>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+          </header>
+          <p>
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Nunc dignissim risus id metus.</li>
+          </ul>
+          <ol>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Nunc dignissim risus id metus.</li>
+          </ol>
 
-      <section>
-        <header>
-          <h4>Lorem ipsum dolor sit amet.</h4>
-        </header>
-        <p>
-          sunt in culpa qui officia deserunt mollit anim id est laborum. sunt
-          in culpa qui officia deserunt mollit anim id est laborum. sunt in
-          culpa qui officia deserunt mollit anim id est laborum. sunt in culpa
-          qui officia deserunt mollit anim id est laborum. sunt in culpa qui
-          officia deserunt mollit anim id est laborum.
-        </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-          <li>Aliquam tincidunt mauris eu risus.</li>
-          <li>Vestibulum auctor dapibus neque.</li>
-          <li>Nunc dignissim risus id metus.</li>
-        </ul>
-        <ol>
-          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-          <li>Aliquam tincidunt mauris eu risus.</li>
-          <li>Vestibulum auctor dapibus neque.</li>
-          <li>Nunc dignissim risus id metus.</li>
-        </ol>
-
-        <blockquote>
-          <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
-          <cite>-Full name</cite>
-        </blockquote>
+          <blockquote>
+            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.</q>
+            <cite><a href="#">-Full name</a></cite>
+          </blockquote>
+        </div>
       </section>
       <!-- image description end -->
     </main>
     <!-- Main content end -->
-    <hr />
+    <hr>
     <!-- Footer start -->
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-top">
           <div class="footer-logo">
-            <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo" /></a>
+            <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo"></a>
           </div>
           <div class="contact-info">
             <h5>Contact:</h5>
@@ -304,7 +309,7 @@
     </footer>
     <!-- Footer end -->
   </div>
-  <a href="#header" class="accessibility">Back to Top</a>
+  <a href="#wrapper" class="accessibility">Back to Top</a>
 </body>
 
 </html>
