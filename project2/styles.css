@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+.accessibility {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.accessibility:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 0;
+}
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo a {
+  width: 80px;
+
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+
+.header-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+.main-navlinks a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 5px;
+}
+
+.main-navlinks a:hover {
+  background-color: #555;
+  color: #ff0;
+}
+
+.sub-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.sub-navlinks li {
+  list-style: none;
+}
+.sub-navlinks a {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  margin-bottom: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+.blogs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.blog {
+  width: 600px;
+}
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+}
+.form-section {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 16px;
+}
+.form-section label {
+  display: block;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
