@@ -1,184 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Project 2</title>
-  </head>
-  <body>
-    <a class="accessibility" href="#main">Skip to Content</a>
-    <div class="wrapper">
-      <!-- Header start -->
-      <header class="header" id="'header">
-        <div class="header-container">
-          <div class="header-top">
-            <div class="header-logo">
-              <a href="#" class="nav-logo" id="nav-logo"
-                ><img src="./assets/LOGO.png" alt="Nav logo"
-              /></a>
-            </div>
-            <div class="main-navwrapper">
-              <nav id="main-nav" class="main-nav">
-                <ul id="main-navlinks" class="main-navlinks">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">News Details</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <hr />
-          <div class="sub-navwrapper">
-            <nav id="sub-nav" class="sub-nav">
-              <ul class="sub-navlinks">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">News Details</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <hr />
-        </div>
-      </header>
-      <!-- Header end -->
 
-      <!-- Main Content start -->
-      <main class="main" id="main">
-        <!-- Post Section -->
-        <section class="news-section">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Project 2</title>
+</head>
+
+<body>
+  <a class="accessibility" href="#main">Skip to Content</a>
+  <noscript>
+    <div>Javascript must be enabled for the correct page display</div>
+  </noscript>
+  <div class="wrapper" id="'wrapper">
+    <!-- Header start -->
+    <header class="header" id="'header">
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="#" class="nav-logo" id="nav-logo"><img src="./assets/LOGO.png" alt="Nav logo"></a>
+        </div>
+        <!-- better not to wrap  the nav with div -->
+
+        <nav id="main-nav" class="main-nav">
+          <ul id="main-navlinks" class="main-navlinks">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">News Details</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr>
+    </header>
+    <!-- Header end -->
+
+    <!-- Main Content start -->
+    <main class="main" id="main">
+      <nav id="sub-nav" class="sub-nav" aria-label="Page sub navigation">
+        <!-- usually no classes in ul -->
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">News Details</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <!-- Post Section -->
+      <section class="news-section">
+        <div class="blogs-container">
           <header>
             <h1>News</h1>
           </header>
-          <section class="blog-posts">
-            <div class="blogs-container">
-              <div class="blog">
-                <article class="blog-post">
-                  <figure>
-                    <img src="./assets/post.png" alt="Post's image" />
-                  </figure>
-                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut
-                  </p>
-                  <footer>
-                    <a href="#">Learn More</a>
-                  </footer>
-                </article>
-              </div>
-              <div class="blog">
-                <article class="blog-post">
-                  <figure>
-                    <img src="./assets/post.png" alt="Post's image" />
-                  </figure>
-                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut
-                  </p>
-                  <footer>
-                    <a href="#">Learn More</a>
-                  </footer>
-                </article>
-              </div>
 
-              <div class="blog">
-                <article class="blog-post">
-                  <figure>
-                    <img src="./assets/post.png" alt="Post's image" />
-                  </figure>
-                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut
-                  </p>
-                  <footer>
-                    <a href="#">Learn More</a>
-                  </footer>
-                </article>
-              </div>
+          <div class="blogs-posts">
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
 
-              <div class="blog">
-                <article class="blog-post">
-                  <figure>
-                    <img src="./assets/post.png" alt="Post's image" />
-                  </figure>
-                  <header><h2>Lorem ipsum dolor sit amet.</h2></header>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut
-                  </p>
-                  <footer>
-                    <a href="#">Learn More</a>
-                  </footer>
-                </article>
-              </div>
-            </div>
-          </section>
-        </section>
-        <!-- ************* -->
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
 
-        <!-- image section -->
-        <section class="gallery-section">
-          <figure class="gallery-img">
-            <img src="./assets/image.png" alt="Gallery" />
-          </figure>
-          <figure class="gallery-img">
-            <img src="./assets/image.png" alt="Gallery" />
-          </figure>
-          <figure class="gallery-img">
-            <img src="./assets/image.png" alt="Gallery" />
-          </figure>
-          <figure class="gallery-img">
-            <img src="./assets/image.png" alt="Gallery" />
-          </figure>
-          <figure class="gallery-img">
-            <img src="./assets/image.png" alt="Gallery" />
-          </figure>
-          <figure class="gallery-img">
-            <img src="./assets/image.png" alt="Gallery" />
-          </figure>
-        </section>
-        <!-- ****** -->
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
 
-        <!-- Form Section -->
-        <section class="form-section">
+            <article class="blog-post">
+              <figure>
+                <img src="./assets/post.png" alt="Post's image">
+              </figure>
+              <header>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut
+              </p>
+              <footer>
+                <a href="#">Learn More</a>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ************* -->
+
+      <!-- image section -->
+      <section class="gallery-section">
+        <div class="container">
+          <div class="gallery-row">
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+            <figure class="gallery-img">
+              <img src="./assets/image.png" alt="Gallery">
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- ****** -->
+
+      <!-- Form Section -->
+      <section class="form-section">
+        <div class="container">
           <header>
             <h2>Newsletter</h2>
           </header>
           <form action="#" method="post">
             <div class="form-input">
               <label for="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                aria-label="Email address"
-              />
+              <input type="email" id="email" name="email" aria-label="Email address">
             </div>
             <div class="form-input">
               <label for="message">Message:</label>
-              <textarea
-                id="message"
-                name="message"
-                aria-label="Message"
-                required
-              ></textarea>
+              <textarea id="message" name="message" aria-label="Message" required></textarea>
             </div>
             <div class="form-button">
               <button type="submit" aria-label="Form submit button">
@@ -186,63 +183,73 @@
               </button>
             </div>
           </form>
-        </section>
-        <!-- ****form***** -->
-        <!-- image description -->
-        <section class="details-section">
+        </div>
+      </section>
+      <!-- ****form***** -->
+      <!-- image description -->
+      <section class="details-section">
+        <div class="container">
           <article class="details">
             <figure>
-              <img
-                src="./assets/longimage.png"
-                alt="Description of the image"
-              />
+              <img src="./assets/longimage.png" alt="Description of the image">
             </figure>
 
-            <header><h2>Lorem ipsum dolor sit amet.</h2></header>
+            <header>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+            </header>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut<br /><br />
+              nisi ut<br><br>
               aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              <br /><br />
+              <br><br>
               sunt in culpa qui officia deserunt mollit anim id est
               laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut
             </p>
           </article>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <header><h3>Lorem ipsum dolor sit amet.</h3></header>
+      <section>
+        <div class="container">
+          <header>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </header>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut<br /><br />
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut<br><br>
             aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident,
-            <br /><br />
-            sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            <br><br>
+            sunt in culpa qui officia deserunt mollit anim id est
+            laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut
           </p>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <header><h4>Lorem ipsum dolor sit amet.</h4></header>
+      <section>
+        <div class="conatiner">
+          <header>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+          </header>
           <p>
-            sunt in culpa qui officia deserunt mollit anim id est laborum. sunt
-            in culpa qui officia deserunt mollit anim id est laborum. sunt in
-            culpa qui officia deserunt mollit anim id est laborum. sunt in culpa
-            qui officia deserunt mollit anim id est laborum. sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <ul>
             <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
@@ -258,50 +265,51 @@
           </ol>
 
           <blockquote>
-            <q
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.</q
-            >
-            <cite>-Full name</cite>
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.</q>
+            <cite><a href="#">-Full name</a></cite>
           </blockquote>
-        </section>
-        <!-- image description end -->
-      </main>
-      <!-- Main content end -->
-      <hr />
-      <!-- Footer start -->
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-top">
-            <div class="footer-logo">
-              <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo" /></a>
-            </div>
-            <div class="contact-info">
-              <h5>Contact:</h5>
-              <a href="tel:00000000000">000 000 000 00</a>
-            </div>
-            <div class="address-info">
-              <h5>Address :</h5>
-              <address>Lorem ipsum dolor sit amet, elit.</address>
-            </div>
+        </div>
+      </section>
+      <!-- image description end -->
+    </main>
+    <!-- Main content end -->
+    <hr>
+    <!-- Footer start -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo"></a>
           </div>
-          <div class="footer-bottom">
-            <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
-
-            <ul class="condition-list">
-              <li><a href="#"> Privacy Policy</a></li>
-              <li><a href="#"> Terms & Conditions</a></li>
-            </ul>
+          <div class="contact-info">
+            <h5>Contact:</h5>
+            <a href="tel:00000000000">000 000 000 00</a>
+          </div>
+          <div class="address-info">
+            <h5>Address :</h5>
+            <address>Lorem ipsum dolor sit amet, elit.</address>
           </div>
         </div>
-      </footer>
-      <!-- Footer end -->
-    </div>
-    <a href="#header" class="accessibility">Back to Top</a>
-  </body>
+        <div class="footer-bottom">
+          <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
+
+          <ul class="condition-list">
+            <li><a href="#"> Privacy Policy</a></li>
+            <li><a href="#"> Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </div>
+  <a href="#wrapper" class="accessibility">Back to Top</a>
+</body>
+
 </html>
