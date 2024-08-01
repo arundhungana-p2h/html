@@ -116,26 +116,24 @@
           </section>
 
           <section class="about-section">
-            <div class="about-container">
-              <figure class="about-image">
-                <img src="./assets/info.jpg" alt="Company's image" />
-              </figure>
-              <article class="about-content">
-                <header><h3>Lorem ipsum dolor sit amet.</h3></header>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  quasi similique voluptatibus cupiditate quo ducimus laborum
-                  earum temporibus fuga neque consectetur, at nam, soluta
-                  voluptates nobis corporis voluptate necessitatibus sunt.
-                </p>
-                <a
-                  href="#"
-                  class="about-button"
-                  aria-label="Learn more about company"
-                  >BUTTON</a
-                >
-              </article>
-            </div>
+            <figure class="about-image">
+              <img src="./assets/info.jpg" alt="Company's image" />
+            </figure>
+            <article class="about-content">
+              <header><h3>Lorem ipsum dolor sit amet.</h3></header>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                quasi similique voluptatibus cupiditate quo ducimus laborum
+                earum temporibus fuga neque consectetur, at nam, soluta
+                voluptates nobis corporis voluptate necessitatibus sunt.
+              </p>
+              <a
+                href="#"
+                class="about-button"
+                aria-label="Learn more about company"
+                >BUTTON</a
+              >
+            </article>
           </section>
 
           <section class="longimage-section">
@@ -159,6 +157,7 @@
                     id="name"
                     type="text"
                     placeholder="Enter full name..."
+                    required
                   />
                 </div>
                 <div class="form-input">
@@ -168,6 +167,7 @@
                     id="email"
                     type="email"
                     placeholder="Enter email..."
+                    required
                   />
                 </div>
                 <div class="form-input">
@@ -177,6 +177,7 @@
                     id="number"
                     type="tel"
                     placeholder="Enter number..."
+                    required
                   />
                 </div>
                 <div class="form-input">
@@ -185,6 +186,7 @@
                     title="message"
                     id="message"
                     placeholder="Enter message.."
+                    required
                   ></textarea>
                 </div>
                 <div class="form-button">
@@ -209,26 +211,28 @@
       <hr />
       <!-- Footer start -->
       <footer class="footer">
-        <div class="footer-top">
-          <div class="footer-logo">
-            <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo" /></a>
+        <div class="footer-container">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <a href="#"><img src="./assets/LOGO.png" alt=" Footer logo" /></a>
+            </div>
+            <div class="contact-info">
+              <h4>Contact:</h4>
+              <a href="tel:00000000000">000 000 000 00</a>
+            </div>
+            <div class="address-info">
+              <h4>Address :</h4>
+              <address>Lorem ipsum dolor sit amet, elit.</address>
+            </div>
           </div>
-          <div class="contact-info">
-            <h4>Contact:</h4>
-            <a href="tel:00000000000">000 000 000 00</a>
-          </div>
-          <div class="address-info">
-            <h4>Address :</h4>
-            <address>Lorem ipsum dolor sit amet, elit.</address>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
+          <div class="footer-bottom">
+            <p>Copyright © 2024 - XYZ Co., Inc. All Rights Reserved.</p>
 
-          <ul class="condition-list">
-            <li><a href="#"> Privacy Policy</a></li>
-            <li><a href="#"> Terms & Conditions</a></li>
-          </ul>
+            <ul class="condition-list">
+              <li><a href="#"> Privacy Policy</a></li>
+              <li><a href="#"> Terms & Conditions</a></li>
+            </ul>
+          </div>
         </div>
       </footer>
       <!-- Footer end -->
